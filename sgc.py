@@ -28,10 +28,12 @@ def initwindow():
 class SGC:
     def __init__(self):
         self.gc = QApplication(argv)
+
+        QFontDatabase.addApplicationFont("font/copse.ttf")
         self.janelaprincipal = QMainWindow()
         self.janelaprincipal.setFixedSize(QSize(700, 550))
         self.janelaprincipal.setWindowTitle("seticongc")
-        self.janelaprincipal.setWindowIcon(QIcon("favicon/sgc-256x256.ico"))
+        self.janelaprincipal.setWindowIcon(QIcon("favicon/seticongc-256x256.ico"))
         self.janelaprincipal.setStyleSheet(tema)
         self.ferramenta = QWidget()
         
@@ -67,14 +69,14 @@ class SGC:
     def _instr(self):
         QMessageBox.information(self.janelaprincipal, "Instructions",
                                 "<b>Brief Presentation</b><hr>"
-                                "<p>GC-liteQR is a simple and practical QR codes generator"
-                                "it was built with `PyQt6 + QSS + PyQRCode` frameworks allowing the user"
-                                "to easily create QR codes on his PC (offline) with three simple steps:</p>"
-                                "<p>1. Type de content on the text box;<br>"
-                                "2. Create the file clicking the button;<br>"
-                                "3. Giving a name to the file and confirming the action;</p>"
-                                "<p>The program saves the file as a PNG image and also customizes it"
-                                "with different colors (automatically) each time you try to create a new one.</p>"
+                                "<p>seticonGC is a simple way to compile C/C++ scripts with an icon"
+                                "it was built with `PyQt6 + QSS + GNU GCC` frameworks allowing the user"
+                                "to easily compile their C/C++ programs with three simple steps:</p>"
+                                "<p>1. Search and get the location of the C/C++ script;<br>"
+                                "2. Search and get the location of the costumized icon;<br>"
+                                "3. Then just hit the compile button and save where to save the program;</p>"
+                                "<p>The program creates an (.rc) file with the details of the icon then compile both "
+                                "the script and the icon resource into one executable.</p>"
                                 "<p>Thanks for your support!<br>"
                                 "<b>&trade;ArtesGC, Inc.</b></p>")
 
