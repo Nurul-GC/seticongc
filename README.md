@@ -1,6 +1,8 @@
 <div align="center">
 <img src="favicon/favicon-512x512.png" height="192" width="192">
 
+[![Download seticongc](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/seticongc/files/latest/download)
+
 > `seticonGC` is an utilitary that uses the `GNU gcc` framework to compile and set an icon to your C/C++ program, without many stressfull steps, all you need to do is:
 
 `- locate the script` \
