@@ -1,6 +1,6 @@
 QWidget, QSplashScreen{
-    font-family: Segoe Print;
-    font-size: 10pt;
+    font-family: Copse;
+    font-size: 11pt;
     color:orange;
 }
 QPushButton{
