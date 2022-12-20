@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='favicon/sgc-256x256.ico',
+    icon='favicon/seticongc-256x256.ico',
 )
